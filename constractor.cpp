@@ -7,12 +7,12 @@ private:
     string name;
 public:
     Student(int a,string s);   ///Constructor created
-    ~Student(); ///Destructor created
+    ~Student(); ///Destructor
+
     void getDetails(){///inline member function
         cout<<"Roll: "<<roll<<endl;
         cout<<"Name: "<<name<<endl;
     }
-
 };
 Student::Student(int a,string s){
     roll=a;
