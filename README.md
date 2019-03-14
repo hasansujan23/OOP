@@ -57,6 +57,20 @@
     <h3>Message Passing:</h3>
     <p style="font-size: 18px;text-align: justify;">Objects communicate with one another by sending and receiving information to each other. A message for an object is a request for execution of a procedure and therefore will invoke a function in the receiving object that generates the desired results. Message passing involves specifying the name of the object, the name of the function and the information to be sent.</p>
 </div>
+<div style="padding: 10px;border-left: 4px solid #f0ad4e;border-radius: 3px;margin-top: 10px;">
+    <h3>Access modifier:</h3>
+    <p style="font-size: 18px;text-align: justify;">Access modifiers or Access Specifiers in a class are used to set the accessibility of the class members. That is, it sets some restrictions on the class members not to get directly accessed by the outside functions.</p>
+    <p style="font-size: 18px;text-align: justify;">There are three type of access modifiers:</p>
+    <ul>
+        <li style="font-size: 18px;">Public: All the class members declared under public will be available to everyone.</li>
+        <li style="font-size: 18px;">
+            Private: The class members declared as private can be accessed only by the functions inside the class. They are not allowed to be accessed directly by any object or function outside the class. Only the member functions or the friend functions are allowed to access the private data members of a class.
+        </li>
+        <li style="font-size: 18px;">
+            Protected: Protected access modifier is similar to that of private access modifiers, the difference is that the class member declared as Protected are inaccessible outside the class but they can be accessed by any sub-class (derived class) of that class.
+        </li>
+    </ul>
+</div>
 </div>
 </body>
 </html>
