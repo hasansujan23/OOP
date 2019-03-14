@@ -33,6 +33,21 @@
 <div style="padding: 10px;border-left: 4px solid #f0ad4e;border-radius: 3px;margin-top: 10px;">
     <h3>Polymorphism:</h3>
     <p style="font-size: 18px;text-align: justify;">polymorphism means ability to take more than one form. An operation may exhibit different behaviors in different instances. The behavior depends upon the types of data used in the operation. C++ supports operator overloading and function overloading. The process of making an operator to exhibit different behaviors in different instances is known as operator overloading. Function overloading is using a single function name to perform different types of tasks. Polymorphism is extensively used in implementing inheritance.</p>
+	<p style="font-size: 18px;text-align: justify;">In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. Real life example of polymorphism, a person at a same time can have different characteristic. Like a man at a same time is a father, a husband, a employee. So a same person posses have different behavior in different situations. This is called polymorphism.</p>
+	<p style="font-size: 18px;text-align: justify;">In C++ polymorphism is mainly divided into two types:</p>
+	<ul>
+		<li>Compile time polymorphism:
+			<ul>
+				<li>Function Overloading: When there are multiple functions with same name but different parameters then these functions are said to be overloaded.</li>
+				<li>Operator Overloading: C++ also provide option to overload operators. For example, we can make the operator (‘+’) for string class to concatenate two strings. We know that this is the addition operator whose task is to add to operands. So a single operator ‘+’ when placed between integer operands, adds them and when placed between string operands, concatenates them.</li>
+			</ul>
+		</li>
+		<li>Run time Polymorphism:
+		<ul>
+			<li>Function overriding: on the other hand occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.</li>
+		</ul>
+		</li>
+	</ul>
 </div>
 <div style="padding: 10px;border-left: 4px solid #f0ad4e;border-radius: 3px;margin-top: 10px;">
     <h3>Dynamic Binding:</h3>
