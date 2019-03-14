@@ -45,8 +45,8 @@ int main()
     Volume vol1(2,3,4);
     Volume vol2(1,2,3);
     Volume vol3;
-    vol3=vol1+vol2;///Add two class
-    //vol3=vol1+n;///Add variable with class
+    vol3=vol1+vol2;///Add two object
+    //vol3=vol1+n;///Add variable with object
     vol3.getVolume();
     return 0;
 }
