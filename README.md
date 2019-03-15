@@ -4,6 +4,35 @@
     <center><h2 style="padding: 10px;color: aliceblue;">Object Oriented Programming</h3></center>
 </div>
 <div style="width: 1160px;margin:0 auto;padding: 15px;">
+	<div>
+		<h3>Difference between structure and class</h3>
+		<table style="border:1px;">
+			<tr>
+				<th>Structure</th>
+				<th>Class</th>
+			</tr>
+			<tr>
+				<td>Members of a structure are public by default</td>
+				<td>Members of a class are private by default</td>
+			</tr>
+			<tr>
+				<td>It does not support inheritance</td>
+				<td>Support inheritance</td>
+			</tr>
+			<tr>
+				<td>Structure are value type, They are stored as a stack on memory</td>
+				<td>class are reference type. They are stored as heap on memory.</td>
+			</tr>
+			<tr>
+				<td>It can have only parameterized constructor</td>
+				<td>It can have all the types of constructor and destructor</td>
+			</tr>
+			<tr>
+				<td>Generally used for smaller amounts of data.</td>
+				<td>Generally used for large amounts of data.</td>
+			</tr>
+		</table>
+	</div>
     <div style="padding: 10px;border-left: 4px solid #f0ad4e;border-radius: 3px;">
     <h3>Class:</h3>
     <p style="font-size: 18px; text-align: justify;">A Class is a user defined data-type which has data members and member functions. Data members are the data variables and member functions are the functions used to manipulate these variables and together these data members and member functions defines the properties and behavior of the objects in a Class. Class is a blueprint of data and functions or methods. There are two ways to define class member functions:</p>
