@@ -104,6 +104,30 @@
         </li>
     </ul>
 </div>
+<div>
+	<h3>Friend class and function in C++</h3>
+	<p style="font-size: 18px;">Friend Class: A friend class can access private and protected members of other class in which it is declared as friend. It is sometimes useful to allow a particular class to access private members of other class.</p>
+	<p style="font-size: 18px;">Friend Function: Like friend class, a friend function can be given special grant to access private and protected members.</p>
+	<P style="font-size: 18px;">A friend function can be:</P>
+	<ul>
+		<li style="font-size: 18px;">A method of another class</li>
+		<li style="font-size: 18px;">A global function</li>
+	</ul>
+	<p style="font-size: 18px;">Rules for declaring friend function:</p>
+	<ol type="i">
+		<li style="font-size: 18px;">Create forward reference for the class, which member variables are accessed.</li>
+		<li style="font-size: 18px;">Create the class which funtion is going to friend function of another class</li>
+		<li style="font-size: 18px;">Create the class which forward reference is being created first</li>
+		<li style="font-size: 18px;">Define the friend function with :: resulation operator outside the class. Not define inline function</li>
+	</ol>
+	<p style="font-size: 18px;">Some important points about friend functions and classes:</p>
+	<ol type="1">
+		<li style="font-size: 18px;">Friends should be used only for limited purpose. too many functions or external classes are declared as friends of a class with protected or private data, it lessens the value of encapsulation of separate classes in object-oriented programming.</li>
+		<li style="font-size: 18px;">Friendship is not mutual. If a class A is friend of B, then B doesn’t become friend of A automatically.</li>
+		<li style="font-size: 18px;">Friendship is not inherited</li>
+		<li style="font-size: 18px;">The concept of friends is not there in Java.</li>
+	</ol>
+</div>
 </div>
 </body>
 </html>
