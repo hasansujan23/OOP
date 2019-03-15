@@ -35,13 +35,17 @@
 	</div>
     <div style="padding: 10px;border-left: 4px solid #f0ad4e;border-radius: 3px;">
     <h3>Class:</h3>
-    <p style="font-size: 18px; text-align: justify;">A Class is a user defined data-type which has data members and member functions. Data members are the data variables and member functions are the functions used to manipulate these variables and together these data members and member functions defines the properties and behavior of the objects in a Class. Class is a blueprint of data and functions or methods. There are two ways to define class member functions:</p>
+    <p style="font-size: 18px;align: justify;">A Class is a user defined data-type which has data members and member functions. Data members are the data variables and member functions are the functions used to manipulate these variables and together these data members and member functions defines the properties and behavior of the objects in a Class. Class is a blueprint of data and functions or methods. There are two ways to define class member functions:</p>
     <ul>
         <li style="font-size: 18px;">Inside Class Defination</li>
         <li style="font-size: 18px;">OutSide Class Definition</li>
     </ul>
     <p style="font-size: 18px;">To define a member function outside the class definition we have to use the scope resolution :: operator along with class name and function name.</p>
     <center><p style="font-size: 18px;">RETURN-TYPE CLASS-NAME :: FUNCTION-NAME(PARAMETERS)</p></center>
+</div>
+<div>
+	<h3>Why is the size of an empty class not zero in C++?</h3>
+	<p style="font-size:18px;align:justify;">Size of an empty class is not zero. It is 1 byte generally. It is nonzero to ensure that the two different objects will have different addresses.</p>
 </div>
 <div style="padding: 10px;border-left: 4px solid #f0ad4e;border-radius: 3px;margin-top: 10px;">
     <h3>Object:</h3>
