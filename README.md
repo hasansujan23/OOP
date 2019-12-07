@@ -58,13 +58,11 @@
 <div style="padding: 10px;border-left: 4px solid #f0ad4e;border-radius: 3px;margin-top: 10px;">
     <h3>Data abstraction:</h3>
     <p style="font-size: 18px;text-align: justify;">Data abstraction refers to, providing only needed information to the outside world and hiding implementation details. Using abstract class we can hide the implementation details</p>
-	<p style="font-size: 18px;text-align: justify;>Characteristics of Abstruct class</p>
-	<ul>
-		<li>A class is abstract if it has at least one pure virtual function.</li>
-		<li>We can have pointers and references of abstract class type.</li>
-		<li>If we do not override the pure virtual function in derived class, then derived class also becomes abstract class.</li>
-		<li>An abstract class can have constructors.</li>
-	</ul>
+	### Characteristics of Abstruct class:
+	- A class is abstract if it has at least one pure virtual function.
+	- We can have pointers and references of abstract class type.
+	- If we do not override the pure virtual function in derived class, then derived class also becomes abstract class.
+	- An abstract class can have constructors.
 </div>
 <div style="padding: 10px;border-left: 4px solid #f0ad4e;border-radius: 3px;margin-top: 10px;">
     <h3>Inheritance:</h3>
